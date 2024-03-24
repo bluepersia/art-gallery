@@ -2,7 +2,7 @@ import styles from './Footer.module.css';
 import logoLight from '../img/logo-light.svg';
 import logoDark from '../img/logo-dark.svg';
 
-enum Mode {
+export enum Mode {
   Light,
   Dark,
 }
@@ -10,8 +10,20 @@ enum Mode {
 export default function Footer({ mode }: { mode: Mode }): JSX.Element {
   return (
     <div className={styles.footer + ' ' + styles[mode.toString()]}>
-      {mode === Mode.Dark && <img src={logoLight} className={styles.logo} />}
-      {mode === Mode.Light && <img src={logoDark} className={styles.logo} />}
+      {mode === Mode.Dark && (
+        <img
+          src={logoLight}
+          className={styles.logo}
+          alt='Moden Art Gallery Logo'
+        />
+      )}
+      {mode === Mode.Light && (
+        <img
+          src={logoDark}
+          className={styles.logo}
+          alt='Moden Art Gallery Logo'
+        />
+      )}
 
       <p className={styles.body}>
         The Modern Art Gallery is free to all visitors and open seven days a
