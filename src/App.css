@@ -1,42 +1,102 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+:root 
+{
+  --color-1: rgb(213, 150, 108);
+  --color-2: rgb(21,21,21);
+  --color-3: rgb(68,68,68);
+  --color-4:rgb(255,255,255);
+
+  --font-1: "Big Shoulders Display", sans-serif;
+  --font-2: "Outfit", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+html {
+  font-size: 18px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#root 
+{
+  width: 100vw;
+  min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+body {
+  margin:0;
 }
 
-.card {
-  padding: 2em;
+
+.heading-xl 
+{
+  font-family:  var(--font-1);
+  font-size:  3.33rem;
+  font-weight: 900;
+  line-height: 0.91;
 }
 
-.read-the-docs {
-  color: #888;
+.heading-l, .heading-m 
+{
+  font-family: var(--font-1);
+  font-size: 2.7rem;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.heading-s 
+{
+  font-family: var(--font-1);
+  font-size: 1.77rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+
+.body-m {
+    line-height: 1.55;
+    font-family: var(--font-2);
+}
+
+.body-s 
+{
+  font-family: var(--font-2);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.625;
+}
+
+
+.btn {
+  font-size: 1.11rem;
+  display: flex;
+  align-items: stretch;
+  border:none;
+  cursor: pointer;
+}
+
+.btn_content {
+    padding: 1.2em 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.182em;
+    font-family: var(--font-1);
+    background-color: var(--color-2);
+    color: var(--color-4);
+    transition: background-color 300ms;
+}
+
+.btn_arrow {
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.33em;
+    transition: background-color 300ms;
+
+}
+
+.btn:hover .btn_content {
+  background-color: var(--color-1);
+}
+.btn:hover .btn_arrow {
+  background-color: var(--color-2);
 }
