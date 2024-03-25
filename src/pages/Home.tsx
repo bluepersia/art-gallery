@@ -79,44 +79,46 @@ export default function Home(): JSX.Element {
           />
         </div>
 
-        <img
-          src={imgGallery2Mobile}
-          alt='Gallery image'
-          className={styles.imgGallery2Mobile}
-        />
-        <img
-          src={imgGallery2Tablet}
-          alt='Gallery image'
-          className={styles.imgGallery2Tablet}
-        />
-        <img
-          src={imgGallery2Desktop}
-          alt='Gallery image'
-          className={styles.imgGallery2Desktop}
-        />
+        <div className={styles.main_grid}>
+          <img
+            src={imgGallery2Mobile}
+            alt='Gallery image'
+            className={styles.imgGallery2Mobile}
+          />
+          <img
+            src={imgGallery2Tablet}
+            alt='Gallery image'
+            className={styles.imgGallery2Tablet}
+          />
+          <img
+            src={imgGallery2Desktop}
+            alt='Gallery image'
+            className={styles.imgGallery2Desktop}
+          />
 
-        <img
-          src={imgGallery3Mobile}
-          alt='Gallery image'
-          className={styles.imgGallery3Mobile}
-        />
-        <img
-          src={imgGallery3Tablet}
-          alt='Gallery image'
-          className={styles.imgGallery3Tablet}
-        />
-        <img
-          src={imgGallery3Desktop}
-          alt='Gallery image'
-          className={styles.imgGallery3Desktop}
-        />
+          <img
+            src={imgGallery3Mobile}
+            alt='Gallery image'
+            className={styles.imgGallery3Mobile}
+          />
+          <img
+            src={imgGallery3Tablet}
+            alt='Gallery image'
+            className={styles.imgGallery3Tablet}
+          />
+          <img
+            src={imgGallery3Desktop}
+            alt='Gallery image'
+            className={styles.imgGallery3Desktop}
+          />
 
-        <div className={styles.invitation}>
-          <h3 className={styles.invitation_title}>Come & be inspired</h3>
-          <p className={styles.invitation_body}>
-            We’re excited to welcome you to our gallery and see how our
-            collections influence you.
-          </p>
+          <div className={styles.invitation}>
+            <h3 className={styles.invitation_title}>Come & be inspired</h3>
+            <p className={styles.invitation_body}>
+              We’re excited to welcome you to our gallery and see how our
+              collections influence you.
+            </p>
+          </div>
         </div>
       </main>
       <Footer mode={Mode.Dark} />

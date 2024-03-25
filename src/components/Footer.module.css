@@ -29,9 +29,13 @@
     cursor: pointer;
 }
 
+.socialIcon path 
+{
+    transition: fill 300ms;
+}
+
 .footer.light .socialIcon path {
     fill: var(--color-2);
-    transtiion: fill 300ms;
 }
 
 
@@ -44,4 +48,12 @@
 .footer.light .socialItem:hover path 
 {
     fill: var(--color-4);
+}
+
+
+@media (min-width: 768px)
+{
+    .footer {
+        padding: 3.11em 5% 3.11em;
+    }
 }
