@@ -31,6 +31,7 @@
 .hero_body 
 {
     composes: body-m from '../App.css';    
+    color: var(--color-3);
 }
 
 .main_title {
@@ -66,6 +67,9 @@
     margin-bottom: 1.6em;
 }
 
+.main_top_body {
+    color: var(--color-3);
+}
 .imgGallery2Mobile {
     margin-bottom: .88em;
 }
