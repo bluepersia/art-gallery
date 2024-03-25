@@ -1,8 +1,18 @@
-import imgArrow from './img/icon-arrow-right.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import './App.css';
+import Home from './pages/Home';
+import Location from './pages/Location';
 
 function App() {
-  return <></>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/location' element={<Location />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
