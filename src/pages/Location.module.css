@@ -1,0 +1,45 @@
+.imgMapTablet, .imgMapDesktop 
+{
+    width: 100%;
+    display: none;
+}
+
+.imgMapMobile {
+    width: 100%;
+    display: block;
+}
+
+.map {
+    position: relative;
+}
+
+.btnBack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.info {
+    background-color: var(--color-2);
+    color: var(--color-4);
+    padding: 2.66em 4.2% 3.11em;
+}
+
+.info_title 
+{
+    composes: heading-l from '../App.css';
+}
+
+.info_subtitle {
+    composes: heading-s from '../App.css';
+    color: var(--color-1);
+}
+.info_address {
+    composes: body-m from '../App.css';
+}
+
+.info_body 
+{
+    composes: body-m from '../App.css';
+}

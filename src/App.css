@@ -27,12 +27,25 @@ body {
 }
 
 
+* {
+  box-sizing: border-box;
+}
+
+* :first-child {
+  margin-top: 0;
+}
+
+* :last-child {
+  margin-bottom: 0;
+}
+
 .heading-xl 
 {
   font-family:  var(--font-1);
   font-size:  3.33rem;
   font-weight: 900;
   line-height: 0.91;
+  text-transform: uppercase;
 }
 
 .heading-l, .heading-m 
@@ -41,6 +54,8 @@ body {
   font-size: 2.7rem;
   font-weight: 900;
   line-height: 0.9;
+
+  text-transform: uppercase;
 }
 
 .heading-s 
@@ -49,6 +64,7 @@ body {
   font-size: 1.77rem;
   font-weight: 900;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 

@@ -3,8 +3,8 @@ import logoLight from '../img/logo-light.svg';
 import logoDark from '../img/logo-dark.svg';
 
 export enum Mode {
-  Light,
-  Dark,
+  Light = 'light',
+  Dark = 'dark',
 }
 
 export default function Footer({ mode }: { mode: Mode }): JSX.Element {
