@@ -158,14 +158,13 @@
 
     .imgGallery1Tablet, .imgGallery2Tablet, .imgGallery3Tablet {
         display: block;
-        width: 100%;
     }
 
 
     .main_grid 
     {
         display: grid;
-        grid-template-columns: 57.7% 40.6%;
+        grid-template-columns: 57.8% 40.7%;
         grid-template-rows: auto auto;
         grid-column-gap: 1.5%;
         grid-row-gap: 0.61em;
@@ -254,7 +253,9 @@
 
 
    .main {
-    padding: 0 11.4%;
+    padding-left: 11.4%;
+    padding-right: 11.4%;
+    padding-bottom: 10em;
    }
 
    .main_top_text {
@@ -273,7 +274,7 @@
 
 
    .main_grid {
-    grid-template-columns: 57% 40%;
+    grid-template-columns: 57.7% 40.7%;
     grid-template-rows: 17.3em 20.9em;
     grid-column-gap: 2.7%  1.66em;
    }
