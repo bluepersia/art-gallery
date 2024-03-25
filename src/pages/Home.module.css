@@ -1,0 +1,76 @@
+.hero {
+    margin-bottom: 6.66em;
+}
+
+
+.imgHeroTablet, .imgHeroDesktop {
+    display: none;
+}
+
+.imgHeroMobile {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+}
+
+.hero_content {
+    padding: 1.77em 4.2% 0;
+}
+
+.title {
+    composes: heading-xl from '../App.css';
+}
+
+.hero_body 
+{
+    composes: body-m from '../App.css';    
+}
+
+.main_title {
+    composes: heading-m from '../App.css';
+}
+
+.main_top_body {
+    composes: body-m from '../App.css';
+}
+
+.imgGallery1Mobile, .imgGallery2Mobile, .imgGallery3Mobile {
+    width: 100%;
+    display: block;
+}
+
+.imgGallery1Tablet, .imgGallery1Desktop, .imgGallery2Tablet, .imgGallery2Desktop, .imgGallery3Tablet, .imgGallery3Desktop {
+    display: none;
+}
+
+.imgGallery1Mobile {
+    margin-bottom: 1.55em;
+}
+
+.main_top 
+{
+    margin-bottom: 1.6em;
+}
+
+.imgGallery2Mobile {
+    margin-bottom: .88em;
+}
+
+.imgGallery2Mobile {
+    margin-bottom: .88em;
+}
+
+.invitation {
+    background-color: var(--color-2);
+    color: var(--color-4);
+    padding: 2.66em 6.4%;
+}
+
+.invitation_title {
+    composes: heading-m from '../App.css';
+}
+
+.invitation_body 
+{
+    composes: body-m from '../App.css';
+}
