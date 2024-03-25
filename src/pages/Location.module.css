@@ -43,3 +43,30 @@
 {
     composes: body-m from '../App.css';
 }
+
+
+@media (min-width: 768px)
+{
+    .imgMapMobile {
+        display: none;
+    }
+
+    .imgMapTablet {
+        display: block;
+    }
+
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info_title {
+        max-width: 223px;
+    }
+    .info_content {
+        max-width: 398px;
+    }
+
+   
+}

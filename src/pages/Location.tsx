@@ -4,6 +4,7 @@ import imgMapTablet from '../img/tablet/image-map@2x.png';
 import imgMapDesktop from '../img/desktop/image-map@2x.png';
 import Button, { Direction } from '../components/Button';
 import Footer, { Mode } from '../components/Footer';
+import { Link } from 'react-router-dom';
 export default function Location(): JSX.Element {
   return (
     <div className={styles.location}>
@@ -11,9 +12,11 @@ export default function Location(): JSX.Element {
         <img src={imgMapMobile} alt='Map' className={styles.imgMapMobile} />
         <img src={imgMapTablet} alt='Map' className={styles.imgMapTablet} />
         <img src={imgMapDesktop} alt='Map' className={styles.imgMapDesktop} />
-        <Button className={styles.btnBack} direction={Direction.Left}>
-          Back to home
-        </Button>
+        <Link to='/'>
+          <Button className={styles.btnBack} direction={Direction.Left}>
+            Back to home
+          </Button>
+        </Link>
       </section>
 
       <section className={styles.info}>

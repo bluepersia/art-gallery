@@ -4,6 +4,8 @@
     align-items: stretch;
     border:none;
     cursor: pointer;
+    outline: none;
+    background:none;
   }
   
   .btn_content {
