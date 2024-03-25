@@ -48,7 +48,7 @@ export default function Home(): JSX.Element {
       <main className={styles.main}>
         <div className={styles.mainTop}>
           <div className={styles.mainTopText}>
-            <h2 className={styles.mainTitle}>Your day at the gallery</h2>
+            <h3 className={styles.mainTitle}>Your day at the gallery</h3>
             <p className={styles.mainTopBody}>
               Wander through our distinct collections and find new insights
               about our artists. Dive into the details of their creative
@@ -103,7 +103,7 @@ export default function Home(): JSX.Element {
             />
 
             <div className={styles.invitation}>
-              <h2 className={styles.invitationTitle}>Come & be inspired</h2>
+              <h3 className={styles.invitationTitle}>Come & be inspired</h3>
               <p className={styles.invitationBody}>
                 We’re excited to welcome you to our gallery and see how our
                 collections influence you.

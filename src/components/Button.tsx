@@ -10,13 +10,15 @@ export enum Direction {
 
 type Props = {
   direction: Direction;
+  className?: string;
 };
 export default function Button({
   direction,
+  className = '',
   children,
 }: PropsWithChildren<Props>): JSX.Element {
   return (
-    <button className={styles.btn}>
+    <button className={styles.btn + ' ' + className}>
       {direction === Direction.Left && (
         <div className={styles.btn_arrow}>
           {<img src={imgArrowLeft} alt='Arrow to the left' />}
