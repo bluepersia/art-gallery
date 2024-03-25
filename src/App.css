@@ -121,3 +121,40 @@ body {
 
   
 }
+
+
+@media (min-width: 1440px)
+{
+  .heading-xl {
+    font-size: 5.33rem;
+    line-height: 0.91;
+  }
+
+  .heading-l 
+  {
+    font-size: 3.88rem;
+    line-height: 1;
+  }
+
+  .heading-m {
+    font-size: 3.33rem;
+    line-height: .83;
+  }
+
+  .heading-s 
+  {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .body-m {
+    font-size: 1.22rem;
+    line-height: 1.455;
+  }
+
+  .body-s 
+  {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+}
