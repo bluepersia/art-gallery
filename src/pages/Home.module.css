@@ -34,6 +34,9 @@
     color: var(--color-3);
 }
 
+.main {
+    padding: 0 4.2%;
+}
 .main_title {
     composes: heading-m from '../App.css';
 }
@@ -60,11 +63,18 @@
 
 .main {
     padding-bottom: 7.5em;
+    padding: 0 5%;
 }
+
 
 .main_top 
 {
     margin-bottom: 1.6em;
+}
+
+.main_top_text {
+
+    padding: 2em 0;
 }
 
 .main_top_body {
@@ -139,6 +149,7 @@
     .main_top_text {
         order: 0;
         max-width: 223px;
+        padding-top: 3.33em;
     }
 
     .imgGallery1Mobile, .imgGallery2Mobile, .imgGallery3Mobile {
@@ -174,6 +185,8 @@
     .invitation {
         grid-column: 2 / -1;
         grid-row: 2 / 3;
+
+        padding: 3.6em 10%;
     }
 
 }
@@ -239,6 +252,10 @@
     color: var(--color-2)
    }
 
+
+   .main {
+    padding: 0 11.4%;
+   }
 
    .main_top_text {
     max-width: 350px;
