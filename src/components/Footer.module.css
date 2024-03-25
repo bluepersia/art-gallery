@@ -15,6 +15,7 @@
 
 .body {
     composes: body-s from '../App.css';
+    max-width: 311px;
 }
 
 .social {
@@ -55,5 +56,37 @@
 {
     .footer {
         padding: 3.11em 5% 3.11em;
+        display: flex;
+        align-items: start;
     }
+
+    .logo {
+        margin-right:  8.3%;
+    }
+
+    .social {
+        margin-left: auto;
+    }
+
+    .body {
+        margin-top: 0;
+    }
+
+
+  
+}
+
+@media (min-width: 1440px)
+{
+    .footer {
+        display: flex;
+    }
+
+    .logo {
+        margin-right: 9.7%;
+    }
+    
+    .body {
+        max-width: 430px;
+    }   
 }

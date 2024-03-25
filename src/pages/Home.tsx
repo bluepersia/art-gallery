@@ -35,6 +35,14 @@ export default function Home(): JSX.Element {
           src={imgHeroDesktop}
           alt='Gallery piece on display'
         />
+        <h1 className={styles.title2}>
+          Modern{' '}
+          <span className={styles.dark}>
+            <span className={styles.light}>A</span>
+            <span className={styles.light2}>r</span>t
+          </span>{' '}
+          Gallery
+        </h1>
         <div className={styles.hero_content}>
           <h1 className={styles.title}>Modern Art Gallery</h1>
           <p className={styles.hero_body}>
