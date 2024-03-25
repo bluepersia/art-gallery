@@ -55,6 +55,10 @@
         display: block;
     }
 
+    .btnBack{
+        left: 5%;
+    }
+
 
     .info {
         display: flex;
@@ -69,4 +73,25 @@
     }
 
    
+}
+
+
+@media (min-width: 1440px)
+{
+    .imgMapTablet{
+        display: none;
+    }
+
+    .imgMapDesktop {
+        display: block;
+    }
+
+
+    .btnBack {
+        left: 10.8%;
+    }
+
+    .info {
+        padding: 5.77em 11.4% 7.11em;
+    }
 }

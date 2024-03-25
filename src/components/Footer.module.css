@@ -79,7 +79,7 @@
 @media (min-width: 1440px)
 {
     .footer {
-        display: flex;
+        padding: 4.44em 11.4%;
     }
 
     .logo {
