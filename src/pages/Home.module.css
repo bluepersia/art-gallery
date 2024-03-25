@@ -256,6 +256,7 @@
 
    .main_top {
     width: 100%;
+    margin-bottom:1.66em ;
    }
    .main_top_text {
     max-width: 350px;
@@ -273,10 +274,10 @@
 
 
    .main_grid {
-    grid-template-columns: 57.7% 40.7%;
+    grid-template-columns: 57.7% 40.6%;
     grid-template-rows: 17.3em 20.9em;
-    grid-column-gap: 2.7%  1.66em;
-    justify-content: space-between;
+    grid-column-gap: 1.5%;
+    grid-row-gap: 1.66em;
    }
  
    .imgGallery2Tablet, .imgGallery3Tablet {
