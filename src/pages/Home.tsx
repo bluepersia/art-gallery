@@ -13,6 +13,7 @@ import imgGallery2Desktop from '../img/tablet/image-grid-2@2x.jpg';
 import imgGallery3Mobile from '../img/mobile/image-grid-3@2x.jpg';
 import imgGallery3Tablet from '../img/tablet/image-grid-3@2x.jpg';
 import imgGallery3Desktop from '../img/tablet/image-grid-3@2x.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Home(): JSX.Element {
   return (
@@ -41,7 +42,12 @@ export default function Home(): JSX.Element {
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
           </p>
-          <Button direction={Direction.Right}>Our location</Button>
+          <Link
+            to='/location'
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <Button direction={Direction.Right}>Our location</Button>
+          </Link>
         </div>
       </header>
 

@@ -17,13 +17,13 @@ export default function Location(): JSX.Element {
       </section>
 
       <section className={styles.info}>
-        <h2 className={styles.infoTitle}>Our location</h2>
-        <div className={styles.infoContent}>
-          <h4 className={styles.infoSubtitle}>99 King Street</h4>
-          <p className={styles.infoAddress}>
+        <h2 className={styles.info_title}>Our location</h2>
+        <div className={styles.info_content}>
+          <h4 className={styles.info_subtitle}>99 King Street</h4>
+          <p className={styles.info_address}>
             Newport RI 02840 United States of America
           </p>
-          <p className={styles.infoBody}>
+          <p className={styles.info_body}>
             Our newly opened gallery is located near the Edward King House on 99
             King Street, the Modern Art Gallery is free to all visitors and open
             seven days a week from 8am to 9pm.

@@ -5,6 +5,10 @@
     color: var(--color-4);
 }
 
+.footer.light {
+    background-color: var(--color-1);
+}
+
 .footer {
     padding: 2.66em 8%;
 }
@@ -19,4 +23,25 @@
     display: flex;
     gap: 1.11em;
 
+}
+
+.socialItem {
+    cursor: pointer;
+}
+
+.footer.light .socialIcon path {
+    fill: var(--color-2);
+    transtiion: fill 300ms;
+}
+
+
+.footer.dark .socialItem:hover path 
+{
+    fill: var(--color-1);
+}
+
+
+.footer.light .socialItem:hover path 
+{
+    fill: var(--color-4);
 }
