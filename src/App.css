@@ -44,7 +44,7 @@ body {
   font-family:  var(--font-1);
   font-size:  3.33rem;
   font-weight: 900;
-  line-height: 0.91;
+  line-height: 0.91em;
   text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@ body {
   font-family: var(--font-1);
   font-size: 2.7rem;
   font-weight: 900;
-  line-height: 0.9;
+  line-height: 0.9em;
 
   text-transform: uppercase;
 }
@@ -63,7 +63,7 @@ body {
   font-family: var(--font-1);
   font-size: 1.77rem;
   font-weight: 900;
-  line-height: 1;
+  line-height: 1em;
   text-transform: uppercase;
 }
 
@@ -78,7 +78,7 @@ body {
   font-family: var(--font-2);
   font-size: 0.88rem;
   font-weight: 300;
-  line-height: 1.625;
+  line-height: 1.625em;
 }
 
 
@@ -89,31 +89,31 @@ body {
   .heading-xl 
   {
     font-size: 3.88rem;
-    line-height: 0.92;
+    line-height: 0.92em;
   }
 
   .heading-l 
   {
     font-size: 3.05rem;
-    line-height: 0.9;
+    line-height: 0.9em;
   }
 
   .heading-m 
   {
     font-size: 2.77rem;
-    line-height: 0.9;
+    line-height: 0.9em;
   }
 
   .heading-s 
   {
     font-size: 1.77rem;
-    line-height: 1;
+    line-height: 1em;
   }
 
   .body-s 
   {
     font-size: .88rem;
-    line-height: 1.625;
+    line-height: 1.625em;
   }
 
 
@@ -127,34 +127,34 @@ body {
 {
   .heading-xl {
     font-size: 5.33rem;
-    line-height: 0.91;
+    line-height: 0.91em;
   }
 
   .heading-l 
   {
     font-size: 3.88rem;
-    line-height: 1;
+    line-height: 1em;
   }
 
   .heading-m {
     font-size: 3.33rem;
-    line-height: .83;
+    line-height: .83em;
   }
 
   .heading-s 
   {
     font-size: 2rem;
-    line-height: 1;
+    line-height: 1em;
   }
 
   .body-m {
     font-size: 1.22rem;
-    line-height: 1.455;
+    line-height: 1.455em;
   }
 
   .body-s 
   {
     font-size: 1rem;
-    line-height: 1.55;
+    line-height: 1.55em;
   }
 }
